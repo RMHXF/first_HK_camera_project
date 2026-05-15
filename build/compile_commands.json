@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/build",
+  "command": "D:\\code_env\\mingw64\\bin\\g++.exe  @CMakeFiles/HK_camera_demo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\HK_camera_demo.dir\\src\\camera\\camera.cpp.obj -c D:\\ROBOMASTER_27\\RM_vision_learning\\HK_camera_test\\src\\camera\\camera.cpp",
+  "file": "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/src/camera/camera.cpp",
+  "output": "CMakeFiles/HK_camera_demo.dir/src/camera/camera.cpp.obj"
+},
+{
+  "directory": "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/build",
+  "command": "D:\\code_env\\mingw64\\bin\\g++.exe  @CMakeFiles/HK_camera_demo.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\HK_camera_demo.dir\\src\\main.cpp.obj -c D:\\ROBOMASTER_27\\RM_vision_learning\\HK_camera_test\\src\\main.cpp",
+  "file": "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/src/main.cpp",
+  "output": "CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj"
+}
+]
