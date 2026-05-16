@@ -1,18 +1,19 @@
-CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
- D:\ROBOMASTER_27\RM_vision_learning\HK_camera_test\src\main.cpp \
- D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/include/core/DataTypes.hpp \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+CMakeFiles/HK_camera_demo.dir/src/camera/camera.cpp.obj: \
+ D:\ROBOMASTER_27\RM_vision_learning\HK_camera_test\src\camera\camera.cpp \
+ D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/include/camera/camera.hpp \
+ D:/code_env/opencv-4.5.5/include/opencv2/opencv.hpp \
+ D:/code_env/opencv-4.5.5/build/opencv2/opencv_modules.hpp \
+ D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core.hpp \
+ D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/cvdef.h \
+ D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/version.hpp \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/hal/interface.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/stddef.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -20,33 +21,51 @@ CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/errno.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/stddef.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
@@ -54,29 +73,40 @@ CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/locale.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/stdio.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/ctype.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/pthread.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/errno.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/sys/types.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/process.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/limits.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/signal.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
@@ -84,65 +114,13 @@ CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
  D:/code_env/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/stdlib.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/malloc.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
- D:/code_env/mingw64/x86_64-w64-mingw32/include/wctype.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- D:/code_env/opencv-4.5.5/include/opencv2/opencv.hpp \
- D:/code_env/opencv-4.5.5/build/opencv2/opencv_modules.hpp \
- D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core.hpp \
- D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/cvdef.h \
- D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/version.hpp \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
- D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/hal/interface.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
- D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
- D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
  D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/base.hpp \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -200,6 +178,27 @@ CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
  D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/cvstd.inl.hpp \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+ D:/code_env/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc \
  D:/code_env/opencv-4.5.5/modules/core/include/opencv2/core/utility.hpp \
  D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
@@ -242,6 +241,7 @@ CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
  D:/code_env/opencv-4.5.5/modules/flann/include/opencv2/flann/params.h \
  D:/code_env/opencv-4.5.5/modules/flann/include/opencv2/flann/any.h \
  D:/code_env/opencv-4.5.5/modules/flann/include/opencv2/flann/defines.h \
+ D:/code_env/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/code_env/opencv-4.5.5/modules/flann/include/opencv2/flann/saving.h \
  D:/code_env/opencv-4.5.5/modules/flann/include/opencv2/flann/nn_index.h \
  D:/code_env/opencv-4.5.5/modules/flann/include/opencv2/flann/result_set.h \
@@ -329,4 +329,10 @@ CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj: \
  D:/code_env/opencv-4.5.5/modules/video/include/opencv2/video.hpp \
  D:/code_env/opencv-4.5.5/modules/video/include/opencv2/video/tracking.hpp \
  D:/code_env/opencv-4.5.5/modules/video/include/opencv2/video/background_segm.hpp \
- D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/include/camera/camera.hpp
+ D:/code_env/MVS/MVS/Development/Includes/MvCameraControl.h \
+ D:/code_env/MVS/MVS/Development/Includes/MvErrorDefine.h \
+ D:/code_env/MVS/MVS/Development/Includes/MvISPErrorDefine.h \
+ D:/code_env/MVS/MVS/Development/Includes/CameraParams.h \
+ D:/code_env/MVS/MVS/Development/Includes/PixelType.h \
+ D:/code_env/MVS/MVS/Development/Includes/MvObsoleteInterfaces.h \
+ D:/code_env/MVS/MVS/Development/Includes/ObsoleteCamParams.h

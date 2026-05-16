@@ -1236,18 +1236,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test"
-		},
-		{
-			"name" : "OpenCV_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for OpenCV."
-				}
-			],
-			"type" : "PATH",
-			"value" : "OpenCV_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

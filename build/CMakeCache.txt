@@ -230,9 +230,6 @@ HK_camera_demo_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 HK_camera_demo_SOURCE_DIR:STATIC=D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test
 
-//The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=OpenCV_DIR-NOTFOUND
-
 
 ########################
 # INTERNAL cache entries

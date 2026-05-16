@@ -21,10 +21,11 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # 配置海康相机(MVS) 和相机 (SDK)
 if(WIN32)
     set(HK_INCLUDE_DIR "D:/code_env/MVS/MVS/Development/Includes")
+
     set(HK_LIB_DIR "D:/code_env/MVS/MVS/Development/Libraries/win64")
 
-    set(OpenCV_INCLUDE_DIR "D:/code_env/openCV_4_5_5/opencv/build/include")
-    set(OpenCV_LIB_DIR "D:/code_env/openCV_4_5_5/opencv/build/bin")
+    set(OpenCV_INCLUDE_DIR "D:/code_env/opencv-4.5.5/include")
+    set(OpenCV_LIB_DIR "D:/code_env/opencv-4.5.5/build/lib")
 
     include_directories(${HK_INCLUDE_DIR})
     link_directories(${HK_LIB_DIR})

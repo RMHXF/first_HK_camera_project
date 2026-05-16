@@ -30,49 +30,43 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 53,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
-				"file" : 0,
-				"line" : 30,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 32,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 55,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 29,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
 				"file" : 0,
 				"line" : 31,
 				"parent" : 0
 			},
 			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 46,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
 				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -168,103 +162,99 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "D:/code_env/openCV_4_5_5/opencv/build/include"
-				},
-				{
-					"backtrace" : 7,
 					"path" : "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/include/core"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
 					"path" : "D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/include/camera"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/build"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/core/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/flann/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/imgproc/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/ml/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/photo/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/dnn/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/features2d/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/imgcodecs/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/videoio/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/calib3d/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/highgui/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/objdetect/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/stitching/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/ts/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/video/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"isSystem" : true,
 					"path" : "D:/code_env/opencv-4.5.5/modules/gapi/include"
 				}
@@ -301,7 +291,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-LD:\\code_env\\openCV_4_5_5\\opencv\\build\\bin",
+				"fragment" : "-LD:\\code_env\\opencv-4.5.5\\build\\lib",
 				"role" : "libraryPath"
 			},
 			{
