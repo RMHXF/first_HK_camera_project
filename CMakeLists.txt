@@ -13,8 +13,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # 寻找并配置第三方库 (openCV)
-# 下面这句话很重要，否则找不到opencv
-set(OpenCV_DIR "D:/code_env/opencv-4.5.5/build")
+# 下面这句话很重要，否则找不到opencv(win系统)
+# set(OpenCV_DIR "D:/code_env/opencv-4.5.5/build")
+set(OpenCV_DIR "/home/robomaster/opencv-4.5.5/build")
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
@@ -35,9 +36,10 @@ if(WIN32)
 
 elseif(UNIX)
 # UNIX 配置
-    set(HK_INCLUDE_DIR "/usr/local/include")
-    set(HK_LIB_DIR "/usr/local/lib")
-
+    set(HK_INCLUDE_DIR "/opt/MVS/include")
+    set(HK_LIB_DIR "/opt/MVS/lib/64")
+    set(OpenCV_INCLUDE_DIR "/home/robomaster/opencv-4.5.5/include")
+    set(OpenCV_LIB_DIR "/home/robomaster/opencv-4.5.5/build/lib")
     include_directories(${HK_INCLUDE_DIR})
     link_directories(${HK_LIB_DIR})
     set(HK_LIBS MvCameraControl)

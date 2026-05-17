@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HK_camera_demo.dir/src/camera/camera.cpp.obj"
-  "CMakeFiles/HK_camera_demo.dir/src/camera/camera.cpp.obj.d"
-  "CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj"
-  "CMakeFiles/HK_camera_demo.dir/src/main.cpp.obj.d"
-  "HK_camera_demo.exe"
-  "HK_camera_demo.exe.manifest"
+  "CMakeFiles/HK_camera_demo.dir/src/camera/camera.cpp.o"
+  "CMakeFiles/HK_camera_demo.dir/src/camera/camera.cpp.o.d"
+  "CMakeFiles/HK_camera_demo.dir/src/main.cpp.o"
+  "CMakeFiles/HK_camera_demo.dir/src/main.cpp.o.d"
+  "HK_camera_demo"
   "HK_camera_demo.pdb"
-  "libHK_camera_demo.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

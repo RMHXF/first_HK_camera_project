@@ -1,3 +1,3 @@
-D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/build/CMakeFiles/HK_camera_demo.dir
-D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/build/CMakeFiles/edit_cache.dir
-D:/ROBOMASTER_27/RM_vision_learning/HK_camera_test/build/CMakeFiles/rebuild_cache.dir
+/home/robomaster/openCV_learning/HKCamera/first_HK_camera_project/build/CMakeFiles/HK_camera_demo.dir
+/home/robomaster/openCV_learning/HKCamera/first_HK_camera_project/build/CMakeFiles/edit_cache.dir
+/home/robomaster/openCV_learning/HKCamera/first_HK_camera_project/build/CMakeFiles/rebuild_cache.dir

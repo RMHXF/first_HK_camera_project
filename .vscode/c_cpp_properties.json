@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "configurationProvider": "ms-vscode.cmake-tools",
-            "compilerPath": "D:/code_env/mingw64/bin/g++.exe",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64",
